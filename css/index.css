@@ -14,6 +14,10 @@ body::before, body::after {
 	box-sizing: border-box;		
 }
 
+button:hover {
+	cursor: pointer;		
+}
+
 .flex-grow {
 	color: rgba(3,27,78,.7);
 	display: block;
@@ -263,7 +267,6 @@ td {
 
 .special {
 	padding: 2px 2px;
-	color: #fff;
 	background-color: #33BAFF;
 	border: 1px solid transparent;
 	border-radius: 2px;
