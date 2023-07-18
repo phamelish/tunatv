@@ -149,6 +149,22 @@ ul {
 	padding: .5rem 1rem;
 }
 
+/* Ads */
+.col-ads:first-child {
+	position: absolute;
+	left: 40px;
+	top: 8%;
+	width: 250px;
+	height: 70%;
+}
+
+.col-ads:last-child {
+	position: absolute;
+	right: 40px;
+	top: 8%;
+	width: 250px;
+	height: 50%;
+}
 
 /* Table */
 .justify-content-center {
@@ -284,8 +300,69 @@ td {
 }
 
 
+/* Footer */
+.footer-container {
+	position: absolute;
+	bottom: -200px;
+	height: 200px;
+	width: 100%;
+	background-color: white;
+}
 
+.footer {
+	position: relative;		
+	height: 100%;
+}
 
+.privacy-flex {
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	top: 0;
+	margin-top: 10px;
+}
 
+.privacy-header {
+	font-size: 1.2rem;
+	color: red;
+	font-weight: bold;
+}
 
+.privacy-policy {
+	width: 50%;
+	font-size: .75rem;
+	text-align: center;
+}
+
+.footer-menu-flex {
+	display: flex;
+	justify-content: center;
+}
+
+.footer-menu {
+	position: absolute;
+	bottom: 40px;
+	display: flex;
+	gap: 100px;
+}
+
+.menu {
+	color: #007BFF;
+	font-weight: bold;
+}
+
+.footer-rights {
+	font-size: .65rem;
+	position: absolute;
+	bottom: 0;
+	padding: 10px;
+}
+
+.footer .app {
+	display: flex;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	padding: 10px;
+}
 
